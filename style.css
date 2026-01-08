@@ -67,7 +67,13 @@
     color: #000;
     font-weight: 500;
 }
-.nav-button{}
+.nav-button:hover{
+    background-color: rgb(0, 0, 0);
+    color: #0afb6e;
+    transition: .5s;
+    box-shadow: 1px 1px 10px 1px #49d47c;
+    border-radius: 5px;
+}
 
 /* Banner part CSS start from here */
 
@@ -116,6 +122,12 @@
 }
 .banner-container button{
     margin-top: 32px;
+}
+.banner-container button:hover{
+    background-color: #fff;
+    color: #469165;
+    transition: .5s;
+    box-shadow: 1px 1px 8px 1px #d3d2da;
 }
 
 
@@ -248,6 +260,12 @@
 .clear-btn{
     margin: 16px 0px;
     gap: 3px;
+}
+.clear-btn:hover{
+    background-color: #fff;
+    color: #469165;
+    transition: .5s;
+    box-shadow: 1px 1px 8px 1px #30B868;
 }
 .clear-section h6{
     color: #627382;
