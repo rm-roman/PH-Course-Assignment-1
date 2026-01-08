@@ -32,6 +32,10 @@
     margin-left: 10px;
     cursor: pointer;
 }
+.container{
+    width: 1360px;
+    margin: 120px;
+}
 
 /* Header CSS Start From herte */
 
@@ -167,7 +171,66 @@
 .service-card .card-item p{
     font-size: 16px;
     color: #627382;
-
 }
 
+/* Blog Section CSS start From Here */
 
+.blog-main{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.blog-image{}
+.blog-image img{
+    width: 600px;
+}
+.blog-content{
+    width: 700px;
+}
+.blog-content span{
+    font-size: 16px;
+    line-height: 20px;
+    color: #469165;
+    font-weight: 500;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+.blog-content h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    width:500px;
+    margin-bottom: 16px;
+}
+.blog-content p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    width: 500px;
+}
+.blog-content-item{
+    margin-top: 40px;
+}
+.feature-item{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+
+}
+.feature-item span{
+    margin-bottom: 0px;
+}
+.feature-item span img{}
+.feature-item p{
+    color: #001931;
+}
+
+/* clear-section CSS start from Here */
+
+.clear-section{
+    text-align: center;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    border-radius: 12px;
+}
