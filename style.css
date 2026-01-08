@@ -234,3 +234,22 @@
     padding: 80px 40px;
     border-radius: 12px;
 }
+.clear-section h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.clear-section p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382; 
+}
+.clear-btn{
+    margin: 16px 0px;
+}
+.clear-section h6{
+    color: #627382;
+    font-weight: 300;
+    font-size: 16px;
+}
